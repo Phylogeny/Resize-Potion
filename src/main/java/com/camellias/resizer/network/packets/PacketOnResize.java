@@ -53,7 +53,7 @@ public abstract class PacketOnResize implements IMessage
 	 * @return resized player, if that player was found, or null if not found
 	 */
 	@Nullable
-	protected EntityLivingBase removePotionEffect(MessageContext ctx,  boolean removeGrowth, boolean removeShrinking)
+	protected EntityLivingBase removePotionEffect(MessageContext ctx, boolean removeGrowth, boolean removeShrinking)
 	{
 		EntityLivingBase entity = Main.proxy.getEntityLivingBase(ctx, entityID);
 		if (entity != null)
